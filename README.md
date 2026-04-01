@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Research-F59E0B)](https://github.com/Ayoub-Elkhaiari)
 
-LLM-guided **Tree of Thoughts beam search** for the **Single Machine Total Weighted Tardiness** problem. A locally-running 7B reasoning model proposes targeted job swaps inside an iterative search loop — outperforming all classical scheduling heuristics by up to **28.8%** on the OR-Library `wt40` benchmark.
+LLM-guided **Tree of Thoughts beam search** for the **Single Machine Total Weighted Tardiness** problem. A locally-running 7B reasoning model proposes targeted job swaps inside an iterative search loop outperforming all classical scheduling heuristics by up to **28.8%** on the OR-Library `wt40` benchmark.
 
 ---
 
