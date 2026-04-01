@@ -50,7 +50,8 @@ The blue curve shows the LLM tree search improving at every depth. The red dashe
 
 ### Method comparison
 
-<img width="1389" height="1110" alt="immagine" src="https://github.com/user-attachments/assets/7c78a5e9-72ea-4047-83e9-a77002fcb0dc" />
+<img width="889" height="490" alt="immagine" src="https://github.com/user-attachments/assets/19f6c01c-7e99-4b32-8c87-cacffbab9088" />
+
 
 
 ### Gantt chart — best schedule found
