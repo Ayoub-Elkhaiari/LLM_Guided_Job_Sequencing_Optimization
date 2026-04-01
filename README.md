@@ -54,7 +54,7 @@ The blue curve shows the LLM tree search improving at every depth. The red dashe
 
 
 
-### Gantt chart — best schedule found
+### Gantt chart: best schedule found
 
 Almost entirely green (on-time jobs). Only 4 jobs at the very end are late all unavoidable given total processing load. The LLM learned to front-load short, high-weight jobs to keep the timeline tight.
 
