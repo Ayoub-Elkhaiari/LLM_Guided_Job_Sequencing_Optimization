@@ -20,7 +20,7 @@ Classical methods like EDF, SPT, and WSPT are fast and deterministic but apply r
 
 ## Results
 
-### Evaluated on OR-Library `wt40` — instance 0 (40 jobs)
+### Evaluated on OR-Library `wt40` instance 0 (40 jobs)
 
 | Method | Total Weighted Tardiness | vs LLM Tree Search |
 |---|---|---|
@@ -45,17 +45,20 @@ Depth 5 →  1131   (stable)
 
 The blue curve shows the LLM tree search improving at every depth. The red dashed line is EDF — the best classical method. The LLM beats it from depth 1 onwards and converges 28.8% below it at depth 3.
 
-> Add `Notebook/fitness_progression.png` here after running the notebook
+<img width="790" height="490" alt="immagine" src="https://github.com/user-attachments/assets/5d65c68f-d4b6-40e8-9ccb-de0617af1c1c" />
+
 
 ### Method comparison
 
-> Add `Notebook/method_comparison.png` here after running the notebook
+<img width="1389" height="1110" alt="immagine" src="https://github.com/user-attachments/assets/7c78a5e9-72ea-4047-83e9-a77002fcb0dc" />
+
 
 ### Gantt chart — best schedule found
 
-Almost entirely green (on-time jobs). Only 4 jobs at the very end are late — all unavoidable given total processing load. The LLM learned to front-load short, high-weight jobs to keep the timeline tight.
+Almost entirely green (on-time jobs). Only 4 jobs at the very end are late all unavoidable given total processing load. The LLM learned to front-load short, high-weight jobs to keep the timeline tight.
 
-> Add `Notebook/gantt_chart.png` here after running the notebook
+<img width="1389" height="1110" alt="immagine" src="https://github.com/user-attachments/assets/88f160d7-d91e-45b8-b02a-59b5449efc18" />
+
 
 ---
 
@@ -226,7 +229,7 @@ This project explores a question central to automated optimization:
 
 > *Can an LLM's qualitative reasoning about constraint satisfaction guide a combinatorial search more efficiently than blind heuristics?*
 
-The answer here is yes — for this problem, on this instance, with this model. The LLM does not replace exact evaluation. It acts as a **proposal engine** that understands penalty structure and directs search toward high-impact moves. The result is a hybrid system where language reasoning and exact optimization work together.
+The answer here is yes for this problem, on this instance, with this model. The LLM does not replace exact evaluation. It acts as a **proposal engine** that understands penalty structure and directs search toward high-impact moves. The result is a hybrid system where language reasoning and exact optimization work together.
 
 This connects to emerging work on LLMs as meta-heuristics, algorithm selection, and learned landscape features — topics at the frontier of automated algorithm design.
 
@@ -248,7 +251,7 @@ This connects to emerging work on LLMs as meta-heuristics, algorithm selection, 
 
 ## Author
 
-**Ayoub EL KHAIARI** — AI & Optimization Research
+**Ayoub EL KHAIARI** — AI Researcher
 [Medium](https://medium.com/@elkhaiariayoub) · [GitHub](https://github.com/Ayoub-Elkhaiari)
 
 ---
